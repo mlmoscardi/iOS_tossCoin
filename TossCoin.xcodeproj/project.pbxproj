@@ -1,0 +1,621 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F84EC80E27D5BD0F009CFE96 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84EC80D27D5BD0F009CFE96 /* AppDelegate.swift */; };
+		F84EC81027D5BD0F009CFE96 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84EC80F27D5BD0F009CFE96 /* SceneDelegate.swift */; };
+		F84EC81227D5BD0F009CFE96 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84EC81127D5BD0F009CFE96 /* SplashScreen.swift */; };
+		F84EC81527D5BD0F009CFE96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F84EC81327D5BD0F009CFE96 /* Main.storyboard */; };
+		F84EC81727D5BD10009CFE96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F84EC81627D5BD10009CFE96 /* Assets.xcassets */; };
+		F84EC81A27D5BD10009CFE96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F84EC81827D5BD10009CFE96 /* LaunchScreen.storyboard */; };
+		F84EC82527D5BD10009CFE96 /* TossCoinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84EC82427D5BD10009CFE96 /* TossCoinTests.swift */; };
+		F84EC82F27D5BD10009CFE96 /* TossCoinUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84EC82E27D5BD10009CFE96 /* TossCoinUITests.swift */; };
+		F84EC83127D5BD10009CFE96 /* TossCoinUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84EC83027D5BD10009CFE96 /* TossCoinUITestsLaunchTests.swift */; };
+		F84EC84027D5C26C009CFE96 /* MainPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84EC83F27D5C26C009CFE96 /* MainPage.swift */; };
+		F84EC84227D5C37B009CFE96 /* GameOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84EC84127D5C37B009CFE96 /* GameOne.swift */; };
+		F84EC84427D5C3FB009CFE96 /* GameTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84EC84327D5C3FB009CFE96 /* GameTwo.swift */; };
+		F86952B127DB0808006F84AC /* GameTwoResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86952B027DB0808006F84AC /* GameTwoResults.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F84EC82127D5BD10009CFE96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F84EC80227D5BD0F009CFE96 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F84EC80927D5BD0F009CFE96;
+			remoteInfo = TossCoin;
+		};
+		F84EC82B27D5BD10009CFE96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F84EC80227D5BD0F009CFE96 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F84EC80927D5BD0F009CFE96;
+			remoteInfo = TossCoin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F84EC80A27D5BD0F009CFE96 /* TossCoin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TossCoin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F84EC80D27D5BD0F009CFE96 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F84EC80F27D5BD0F009CFE96 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F84EC81127D5BD0F009CFE96 /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		F84EC81427D5BD0F009CFE96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F84EC81627D5BD10009CFE96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F84EC81927D5BD10009CFE96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F84EC81B27D5BD10009CFE96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F84EC82027D5BD10009CFE96 /* TossCoinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TossCoinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F84EC82427D5BD10009CFE96 /* TossCoinTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TossCoinTests.swift; sourceTree = "<group>"; };
+		F84EC82A27D5BD10009CFE96 /* TossCoinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TossCoinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F84EC82E27D5BD10009CFE96 /* TossCoinUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TossCoinUITests.swift; sourceTree = "<group>"; };
+		F84EC83027D5BD10009CFE96 /* TossCoinUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TossCoinUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F84EC83F27D5C26C009CFE96 /* MainPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPage.swift; sourceTree = "<group>"; };
+		F84EC84127D5C37B009CFE96 /* GameOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOne.swift; sourceTree = "<group>"; };
+		F84EC84327D5C3FB009CFE96 /* GameTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameTwo.swift; sourceTree = "<group>"; };
+		F86952B027DB0808006F84AC /* GameTwoResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameTwoResults.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F84EC80727D5BD0F009CFE96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F84EC81D27D5BD10009CFE96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F84EC82727D5BD10009CFE96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F84EC80127D5BD0F009CFE96 = {
+			isa = PBXGroup;
+			children = (
+				F84EC80C27D5BD0F009CFE96 /* TossCoin */,
+				F84EC82327D5BD10009CFE96 /* TossCoinTests */,
+				F84EC82D27D5BD10009CFE96 /* TossCoinUITests */,
+				F84EC80B27D5BD0F009CFE96 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F84EC80B27D5BD0F009CFE96 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F84EC80A27D5BD0F009CFE96 /* TossCoin.app */,
+				F84EC82027D5BD10009CFE96 /* TossCoinTests.xctest */,
+				F84EC82A27D5BD10009CFE96 /* TossCoinUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F84EC80C27D5BD0F009CFE96 /* TossCoin */ = {
+			isa = PBXGroup;
+			children = (
+				F84EC80D27D5BD0F009CFE96 /* AppDelegate.swift */,
+				F84EC80F27D5BD0F009CFE96 /* SceneDelegate.swift */,
+				F84EC81127D5BD0F009CFE96 /* SplashScreen.swift */,
+				F84EC83F27D5C26C009CFE96 /* MainPage.swift */,
+				F84EC84127D5C37B009CFE96 /* GameOne.swift */,
+				F84EC84327D5C3FB009CFE96 /* GameTwo.swift */,
+				F86952B027DB0808006F84AC /* GameTwoResults.swift */,
+				F84EC81327D5BD0F009CFE96 /* Main.storyboard */,
+				F84EC81627D5BD10009CFE96 /* Assets.xcassets */,
+				F84EC81827D5BD10009CFE96 /* LaunchScreen.storyboard */,
+				F84EC81B27D5BD10009CFE96 /* Info.plist */,
+			);
+			path = TossCoin;
+			sourceTree = "<group>";
+		};
+		F84EC82327D5BD10009CFE96 /* TossCoinTests */ = {
+			isa = PBXGroup;
+			children = (
+				F84EC82427D5BD10009CFE96 /* TossCoinTests.swift */,
+			);
+			path = TossCoinTests;
+			sourceTree = "<group>";
+		};
+		F84EC82D27D5BD10009CFE96 /* TossCoinUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F84EC82E27D5BD10009CFE96 /* TossCoinUITests.swift */,
+				F84EC83027D5BD10009CFE96 /* TossCoinUITestsLaunchTests.swift */,
+			);
+			path = TossCoinUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F84EC80927D5BD0F009CFE96 /* TossCoin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F84EC83427D5BD10009CFE96 /* Build configuration list for PBXNativeTarget "TossCoin" */;
+			buildPhases = (
+				F84EC80627D5BD0F009CFE96 /* Sources */,
+				F84EC80727D5BD0F009CFE96 /* Frameworks */,
+				F84EC80827D5BD0F009CFE96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TossCoin;
+			productName = TossCoin;
+			productReference = F84EC80A27D5BD0F009CFE96 /* TossCoin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F84EC81F27D5BD10009CFE96 /* TossCoinTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F84EC83727D5BD10009CFE96 /* Build configuration list for PBXNativeTarget "TossCoinTests" */;
+			buildPhases = (
+				F84EC81C27D5BD10009CFE96 /* Sources */,
+				F84EC81D27D5BD10009CFE96 /* Frameworks */,
+				F84EC81E27D5BD10009CFE96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F84EC82227D5BD10009CFE96 /* PBXTargetDependency */,
+			);
+			name = TossCoinTests;
+			productName = TossCoinTests;
+			productReference = F84EC82027D5BD10009CFE96 /* TossCoinTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F84EC82927D5BD10009CFE96 /* TossCoinUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F84EC83A27D5BD10009CFE96 /* Build configuration list for PBXNativeTarget "TossCoinUITests" */;
+			buildPhases = (
+				F84EC82627D5BD10009CFE96 /* Sources */,
+				F84EC82727D5BD10009CFE96 /* Frameworks */,
+				F84EC82827D5BD10009CFE96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F84EC82C27D5BD10009CFE96 /* PBXTargetDependency */,
+			);
+			name = TossCoinUITests;
+			productName = TossCoinUITests;
+			productReference = F84EC82A27D5BD10009CFE96 /* TossCoinUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F84EC80227D5BD0F009CFE96 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					F84EC80927D5BD0F009CFE96 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					F84EC81F27D5BD10009CFE96 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = F84EC80927D5BD0F009CFE96;
+					};
+					F84EC82927D5BD10009CFE96 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = F84EC80927D5BD0F009CFE96;
+					};
+				};
+			};
+			buildConfigurationList = F84EC80527D5BD0F009CFE96 /* Build configuration list for PBXProject "TossCoin" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F84EC80127D5BD0F009CFE96;
+			productRefGroup = F84EC80B27D5BD0F009CFE96 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F84EC80927D5BD0F009CFE96 /* TossCoin */,
+				F84EC81F27D5BD10009CFE96 /* TossCoinTests */,
+				F84EC82927D5BD10009CFE96 /* TossCoinUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F84EC80827D5BD0F009CFE96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F84EC81A27D5BD10009CFE96 /* LaunchScreen.storyboard in Resources */,
+				F84EC81727D5BD10009CFE96 /* Assets.xcassets in Resources */,
+				F84EC81527D5BD0F009CFE96 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F84EC81E27D5BD10009CFE96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F84EC82827D5BD10009CFE96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F84EC80627D5BD0F009CFE96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F84EC84227D5C37B009CFE96 /* GameOne.swift in Sources */,
+				F84EC81227D5BD0F009CFE96 /* SplashScreen.swift in Sources */,
+				F84EC80E27D5BD0F009CFE96 /* AppDelegate.swift in Sources */,
+				F84EC81027D5BD0F009CFE96 /* SceneDelegate.swift in Sources */,
+				F84EC84427D5C3FB009CFE96 /* GameTwo.swift in Sources */,
+				F86952B127DB0808006F84AC /* GameTwoResults.swift in Sources */,
+				F84EC84027D5C26C009CFE96 /* MainPage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F84EC81C27D5BD10009CFE96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F84EC82527D5BD10009CFE96 /* TossCoinTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F84EC82627D5BD10009CFE96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F84EC83127D5BD10009CFE96 /* TossCoinUITestsLaunchTests.swift in Sources */,
+				F84EC82F27D5BD10009CFE96 /* TossCoinUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F84EC82227D5BD10009CFE96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F84EC80927D5BD0F009CFE96 /* TossCoin */;
+			targetProxy = F84EC82127D5BD10009CFE96 /* PBXContainerItemProxy */;
+		};
+		F84EC82C27D5BD10009CFE96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F84EC80927D5BD0F009CFE96 /* TossCoin */;
+			targetProxy = F84EC82B27D5BD10009CFE96 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F84EC81327D5BD0F009CFE96 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F84EC81427D5BD0F009CFE96 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F84EC81827D5BD10009CFE96 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F84EC81927D5BD10009CFE96 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F84EC83227D5BD10009CFE96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F84EC83327D5BD10009CFE96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F84EC83527D5BD10009CFE96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TossCoin/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.marcio.TossCoin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F84EC83627D5BD10009CFE96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TossCoin/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.marcio.TossCoin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F84EC83827D5BD10009CFE96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.marcio.TossCoinTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TossCoin.app/TossCoin";
+			};
+			name = Debug;
+		};
+		F84EC83927D5BD10009CFE96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.marcio.TossCoinTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TossCoin.app/TossCoin";
+			};
+			name = Release;
+		};
+		F84EC83B27D5BD10009CFE96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.marcio.TossCoinUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TossCoin;
+			};
+			name = Debug;
+		};
+		F84EC83C27D5BD10009CFE96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.marcio.TossCoinUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TossCoin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F84EC80527D5BD0F009CFE96 /* Build configuration list for PBXProject "TossCoin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F84EC83227D5BD10009CFE96 /* Debug */,
+				F84EC83327D5BD10009CFE96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F84EC83427D5BD10009CFE96 /* Build configuration list for PBXNativeTarget "TossCoin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F84EC83527D5BD10009CFE96 /* Debug */,
+				F84EC83627D5BD10009CFE96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F84EC83727D5BD10009CFE96 /* Build configuration list for PBXNativeTarget "TossCoinTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F84EC83827D5BD10009CFE96 /* Debug */,
+				F84EC83927D5BD10009CFE96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F84EC83A27D5BD10009CFE96 /* Build configuration list for PBXNativeTarget "TossCoinUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F84EC83B27D5BD10009CFE96 /* Debug */,
+				F84EC83C27D5BD10009CFE96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F84EC80227D5BD0F009CFE96 /* Project object */;
+}
